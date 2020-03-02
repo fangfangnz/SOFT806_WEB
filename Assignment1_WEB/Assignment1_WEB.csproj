@@ -127,9 +127,12 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Assignment1.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="images\WIS.jpg" />
+    <Content Include="images\WISLogo.jpg" />
     <Content Include="Index.aspx" />
+    <Content Include="Lecturers.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="ParentsInfo.aspx" />
+    <Content Include="Programs.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -160,6 +163,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="StudentsInfo.aspx" />
+    <Content Include="StudentsMarks.aspx" />
+    <Content Include="TuitionFee.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -206,12 +212,33 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Lecturers.aspx.cs">
+      <DependentUpon>Lecturers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lecturers.aspx.designer.cs">
+      <DependentUpon>Lecturers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentsInfo.aspx.cs">
+      <DependentUpon>ParentsInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentsInfo.aspx.designer.cs">
+      <DependentUpon>ParentsInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs.aspx.cs">
+      <DependentUpon>Programs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs.aspx.designer.cs">
+      <DependentUpon>Programs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
@@ -234,6 +261,27 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsInfo.aspx.cs">
+      <DependentUpon>StudentsInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentsInfo.aspx.designer.cs">
+      <DependentUpon>StudentsInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsMarks.aspx.cs">
+      <DependentUpon>StudentsMarks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentsMarks.aspx.designer.cs">
+      <DependentUpon>StudentsMarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TuitionFee.aspx.cs">
+      <DependentUpon>TuitionFee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TuitionFee.aspx.designer.cs">
+      <DependentUpon>TuitionFee.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

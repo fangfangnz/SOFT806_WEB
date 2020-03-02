@@ -3,8 +3,9 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="HomePlaceHolder" runat="server">
     <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
+    <h2>Tertiary educational institute.</h2>
    <div>
-       <asp:Button ID="bntLogIn" runat="server" Text="Button" />
+       
    </div>
 
 </asp:Content>

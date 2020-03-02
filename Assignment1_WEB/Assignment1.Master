@@ -15,16 +15,26 @@
                     <td colspan="3">
                         <div class="header">
                             <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
-                                <img src="images/WIS.jpg" />
+                                <img src="images/WISLogo.jpg" />
                             </asp:ContentPlaceHolder>
                         </div>
                     </td>
                 </tr>
 
-                <tr>
+                <tr style="width:20%">
                     <td colspan="1">
                         <asp:ContentPlaceHolder ID="LinksPlaceHolder" runat="server">
-                            <asp:Label runat="server">LINKS</asp:Label>
+                            <asp:Label runat="server"></asp:Label>
+                            <asp:HyperLink CssClass="hlinks" ID="hlPrograms" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                            <asp:HyperLink CssClass="hlinks" ID="HyperLink2" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                            <asp:HyperLink CssClass="hlinks" ID="HyperLink3" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                            <asp:HyperLink CssClass="hlinks" ID="HyperLink4" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                            <asp:HyperLink CssClass="hlinks" ID="HyperLink5" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                            <asp:HyperLink CssClass="hlinks" ID="HyperLink6" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+
+
+                            
+                            
                         </asp:ContentPlaceHolder>
                     </td>
 
@@ -42,11 +52,11 @@
                                 <div class="divFooterBottom" style="text-align:center; color:#226786;">
             - Assignment 1 - 
         </div>
-        <div class="divFooterBottom">
-            <table class="divFooterBottom">
+        <div class="divFooter">
+            <table class="divFooter">
                 <tr>
                     <td style="width:90%; text-align:left">
-                        <h4>Juan Sebastian Suarez</h4>
+                        <h5>Juan Sebastian Suarez</h5>
                         <h5>SOFT806 Continuous Integration and Continuous Deployment
                             <br />Auckland Institute of Studies</h5>
                     </td>
