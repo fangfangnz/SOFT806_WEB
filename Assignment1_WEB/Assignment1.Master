@@ -4,47 +4,68 @@
 
 <html>
 <head runat="server">
-    <title>Master page</title>  
+    <title>Master page</title>
     <link rel="stylesheet" type="text/css" href="CSS/MainStyle.css">
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>            
-            <asp:Table runat="server">
-
-                <asp:TableRow>
-                    <asp:TableCell ColumnSpan="2">
+        <div>
+            <table>
+                <tr>
+                    <td colspan="3">
                         <div class="header">
                             <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
-                                <asp:Label runat="server">HEADER</asp:Label>
+                                <img src="images/WIS.jpg" />
                             </asp:ContentPlaceHolder>
                         </div>
-                    </asp:TableCell>
-                </asp:TableRow>
+                    </td>
+                </tr>
 
-                <asp:TableRow>
-                    <asp:TableCell>
+                <tr>
+                    <td colspan="1">
                         <asp:ContentPlaceHolder ID="LinksPlaceHolder" runat="server">
                             <asp:Label runat="server">LINKS</asp:Label>
                         </asp:ContentPlaceHolder>
-                    </asp:TableCell>
-                
-                    <asp:TableCell>
+                    </td>
+
+                    <td colspan="2">
                         <asp:ContentPlaceHolder ID="HomePlaceHolder" runat="server">
-                            HOME aca
                         </asp:ContentPlaceHolder>
-                    </asp:TableCell>
-                </asp:TableRow>
+                    </td>
+                    <tr>
 
-                 <asp:TableRow>
-                    <asp:TableCell>
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                            <asp:Label runat="server">FOOTER</asp:Label>
-                        </asp:ContentPlaceHolder>
-                    </asp:TableCell>
-                </asp:TableRow>
 
-            </asp:Table>
+                <tr>
+                    <td colspan="3">
+                        <div class="centeredTable">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <div class="divFooterBottom" style="text-align:center; color:#226786;">
+            - Assignment 1 - 
+        </div>
+        <div class="divFooterBottom">
+            <table class="divFooterBottom">
+                <tr>
+                    <td style="width:90%; text-align:left">
+                        <h4>Juan Sebastian Suarez</h4>
+                        <h5>SOFT806 Continuous Integration and Continuous Deployment
+                            <br />Auckland Institute of Studies</h5>
+                    </td>
+                    <td><a class="btnFooter" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                    <td><a class="btnFooter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                </tr>
+            </table>
+            <div>
+            </div>
+        </div>
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
         </div>
     </form>
 </body>

@@ -2,6 +2,9 @@
 
 
 <asp:Content ID="Content3" ContentPlaceHolderID="HomePlaceHolder" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="Label">aaaaaaaaaa</asp:Label>
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
+   <div>
+       <asp:Button ID="bntLogIn" runat="server" Text="Button" />
+   </div>
+
 </asp:Content>
