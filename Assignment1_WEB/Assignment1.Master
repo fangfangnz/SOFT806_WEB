@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Assignment1.master.cs" Inherits="Assignment1_WEB.Assignment1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master page</title>  
+    <link rel="stylesheet" type="text/css" href="CSS/MainStyle.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>            
+            <asp:Table runat="server">
+
+                <asp:TableRow>
+                    <asp:TableCell ColumnSpan="2">
+                        <div class="header">
+                            <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+                                <asp:Label runat="server">HEADER</asp:Label>
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </asp:TableCell>
+                </asp:TableRow>
+
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:ContentPlaceHolder ID="LinksPlaceHolder" runat="server">
+                            <asp:Label runat="server">LINKS</asp:Label>
+                        </asp:ContentPlaceHolder>
+                    </asp:TableCell>
+                
+                    <asp:TableCell>
+                        <asp:ContentPlaceHolder ID="HomePlaceHolder" runat="server">
+                            HOME aca
+                        </asp:ContentPlaceHolder>
+                    </asp:TableCell>
+                </asp:TableRow>
+
+                 <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <asp:Label runat="server">FOOTER</asp:Label>
+                        </asp:ContentPlaceHolder>
+                    </asp:TableCell>
+                </asp:TableRow>
+
+            </asp:Table>
+        </div>
+    </form>
+</body>
+</html>

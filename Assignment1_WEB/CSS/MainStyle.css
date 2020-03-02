@@ -1,0 +1,18 @@
+﻿body {
+    background-color:#74a0e6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+.header {
+    align-content:center;
+}
+
+table {
+    text-align: left;
+    border: dotted;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
