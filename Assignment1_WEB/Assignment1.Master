@@ -12,7 +12,7 @@
         <div>
             <table>
                 <tr>
-                    <td colspan="3">
+                    <td>
                         <div class="header">
                             <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
                                 <img src="images/WISLogo.jpg" />
@@ -21,24 +21,9 @@
                     </td>
                 </tr>
 
-                <tr style="width:20%">
-                    <td colspan="1">
-                        <asp:ContentPlaceHolder ID="LinksPlaceHolder" runat="server">
-                            <asp:Label runat="server"></asp:Label>
-                            <asp:HyperLink CssClass="hlinks" ID="hlPrograms" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
-                            <asp:HyperLink CssClass="hlinks" ID="HyperLink2" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
-                            <asp:HyperLink CssClass="hlinks" ID="HyperLink3" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
-                            <asp:HyperLink CssClass="hlinks" ID="HyperLink4" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
-                            <asp:HyperLink CssClass="hlinks" ID="HyperLink5" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
-                            <asp:HyperLink CssClass="hlinks" ID="HyperLink6" runat="server" NavigateUrl="~/Programs.aspx">Programs</asp:HyperLink>
+                <tr style="width:20%">                    
 
-
-                            
-                            
-                        </asp:ContentPlaceHolder>
-                    </td>
-
-                    <td colspan="2">
+                    <td>
                         <asp:ContentPlaceHolder ID="HomePlaceHolder" runat="server">
                         </asp:ContentPlaceHolder>
                     </td>
@@ -46,7 +31,7 @@
 
 
                 <tr>
-                    <td colspan="3">
+                    <td>
                         <div class="centeredTable">
                             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                                 <div class="divFooterBottom" style="text-align:center; color:#226786;">
