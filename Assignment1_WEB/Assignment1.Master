@@ -21,9 +21,17 @@
                     </td>
                 </tr>
 
-                <tr style="width:20%">                    
+                <tr style="width:20%">
+                    <td>     
+                        
+                        <asp:Menu ID="Menu1" runat="server">
+                            <Items>
+                                <asp:MenuItem Text="Login" NavigateUrl="~/Login.aspx"></asp:MenuItem>                                
+                                <asp:MenuItem Text="Register" NavigateUrl="~/Register.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>                       
 
-                    <td>
                         <asp:ContentPlaceHolder ID="HomePlaceHolder" runat="server">
                         </asp:ContentPlaceHolder>
                     </td>

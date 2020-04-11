@@ -3,7 +3,23 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="HomePlaceHolder" runat="server">
     <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
-    <h2>Tertiary educational institute.</h2>
+    <table class="centeredTable">
+        <tr>
+            <td>
+                <h2>Tertiary educational institute.</h2>
+            </td>
+        </tr>
+    </table>
+    <div></div>
+    <div></div>
+    <table class="centeredTable">
+        <tr>
+            <td>
+                <h2>Home</h2>
+            </td>
+        </tr>
+    </table>
+    
    <div>
        
    </div>

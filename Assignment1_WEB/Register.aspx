@@ -3,7 +3,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="HomePlaceHolder" runat="server">
     <table class="loginTable">
         <tr>
-            <td colspan="2">Fist Name</td>
+            <td colspan="2">Username</td>
         </tr>
         <tr>
             <td>
@@ -13,18 +13,7 @@
                 <asp:RequiredFieldValidator CssClass="errorMessage" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter a name" Text="*" ControlToValidate="txtFirstName" ></asp:RequiredFieldValidator>
             </td>
         </tr>
-        <tr>
-            <td colspan="2">Last Name</td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox CssClass="txtField"  ID="txtLastName" runat="server"></asp:TextBox>
-            </td>
-            <td class="validator">
-                <asp:RequiredFieldValidator CssClass="errorMessage" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please enter a last name" Text="*" ControlToValidate="txtLastName"></asp:RequiredFieldValidator>
-
-            </td>
-        </tr>
+       
         <tr>
             <td>
                 E-mail

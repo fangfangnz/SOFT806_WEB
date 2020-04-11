@@ -36,13 +36,12 @@
         <tr>
             <td style="text-align:center">
                 <asp:Label CssClass="errorMessage" ID="lblErrorMessage" runat="server" Text="" Visible="false"></asp:Label>
-                 <a ID="linkBtnResetPassword" href="ResetPassword.aspx" runat="server">forgot your password?</a>
-                
+                                
             </td>
         </tr>
          <tr>
             <td colspan="2">
-                <asp:Button CssClass="button" ID="btnLogIn" runat="server" Text="Log in" OnClick="login" />
+                <asp:Button CssClass="button" ID="btnLogIn" runat="server" Text="Log in" OnClick="btnLoginClick" />
             </td>
         </tr>
     </table>
