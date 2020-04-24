@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #d3cc5c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.header {
+    align-content: center;
+    background-color: #226786;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+    margin: 0;      
+    top: 0;
+    width: 100%;
+}
+
+table {
+    text-align: left;    
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+.loginTable {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: left;
+}
+
+.hlinks {
+    color:white;
+    text-decoration:none;
+    border-color:black;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 20px;
+    background: #226786;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border: thin;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .button:hover {
+        background: #2a5c80;
+    }
+
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.txtField {
+    width: 100%;
+    border: none;
+    border-bottom-style: ridge;
+    border-bottom-width: thin;
+    border-color: #0094ff;
+    height: 30px;
+    background-color: inherit;
+}
+
+.validator {
+    width: 3%;
+}
+
+.errorMessage {
+    font-weight: bold;
+    color: #bd3c3c;
+}
+
+.divFooter {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 0;
+    background-color: #226786;
+    color: whitesmoke;
+   
+    
+}

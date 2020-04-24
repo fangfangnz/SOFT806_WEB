@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Assignment1.master.cs" Inherits="Assignment1_WEB.Assignment1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master page</title>
+    <link rel="stylesheet" type="text/css" href="CSS/MainStyle.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="header">
+                            <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+                                <img src="images/WISLogo.jpg" />
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr style="width:20%">
+                    <td>     
+                        
+                        <asp:Menu ID="Menu1" runat="server">
+                            <Items>
+                                <asp:MenuItem Text="Login" NavigateUrl="~/Login.aspx"></asp:MenuItem>                                
+                                <asp:MenuItem Text="Register" NavigateUrl="~/Register.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>                       
+
+                        <asp:ContentPlaceHolder ID="HomePlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <tr>
+
+
+                <tr>
+                    <td>
+                        <div class="centeredTable">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <div class="divFooterBottom" style="text-align:center; color:#226786;">
+            - Assignment 1 - 
+        </div>
+        <div class="divFooter">
+            <table class="divFooter">
+                <tr>
+                    <td style="width:90%; text-align:left">
+                        <h5>Juan Sebastian Suarez</h5>
+                        <h5>SOFT806 Continuous Integration and Continuous Deployment
+                            <br />Auckland Institute of Studies</h5>
+                    </td>
+                    <td><a class="btnFooter" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                    <td><a class="btnFooter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></td>
+                    <td><a class="btnFooter" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                </tr>
+            </table>
+            <div>
+            </div>
+        </div>
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </form>
+</body>
+</html>
